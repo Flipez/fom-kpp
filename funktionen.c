@@ -182,3 +182,12 @@ int zaehler(char *string) {
             return 0;
         }
     }
+
+
+// Funktion zum Vertauschen von Werten als Pointer:
+void vertausche(int *x, int *y) {
+    int t;
+    t = *x;
+    *x = *y;
+    *y = t;
+}
